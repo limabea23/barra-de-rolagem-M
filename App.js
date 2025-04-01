@@ -1,12 +1,21 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { StyleSheet, Text, View, SafeAreaView, ScrollView, FlatList, SectionList } from 'react-native';
+
+/* -> trocar o tema (ou nãoooo)
+const Musicas = [
+  {id: "1", name: "Fix You - Colplay",},
+  {id: "2", name: "Why Why Why - Shawn Mendes"},
+  {id: "3", name: "Late Night Talking - Harry Styles"},
+  {id: "4", name: "Luna - Peso Pluma"},
+  {id: "5", name: ""}
+]
+*/
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaView style={styles.container}>
+
+    </SafeAreaView>
   );
 }
 
